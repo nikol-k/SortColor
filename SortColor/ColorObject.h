@@ -1,6 +1,6 @@
 #pragma once
 
-//Класс объектов, создержащих значения цвета:
+//РљР»Р°СЃСЃ РѕР±СЉРµРєС‚РѕРІ, СЃРѕР·РґРµСЂР¶Р°С‰РёС… Р·РЅР°С‡РµРЅРёСЏ С†РІРµС‚Р°:
 class ColorObject
 {
 public:
@@ -13,7 +13,7 @@ private:
 };
 
 
-// Блок конструкторов:
+// Р‘Р»РѕРє РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРѕРІ:
 ColorObject::ColorObject()
 {
     _color = 'R';
@@ -24,7 +24,7 @@ ColorObject::ColorObject(char color)
 }
 
 
-//Методы класса:
+//РњРµС‚РѕРґС‹ РєР»Р°СЃСЃР°:
 void ColorObject::SetColor(char color)
 {
     _color = color;
